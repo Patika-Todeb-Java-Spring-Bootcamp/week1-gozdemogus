@@ -5,17 +5,18 @@ Homework includes 3 assignments which you can find in following folders:
 <ul>
   <li>PatikaProjectImmutable</li>
   <li>PatikaProject1</li>
-  <li>PatikeProject1Thread</li>
+  <li>PatikaProject1Thread</li>
 </ul>
 
 **Assignment 1 - PatikaProjectImmutable**
 
-Under the file path <em> /PatikaProjectImmutable/src/main/java/immutablePack </em> ,
+Under the file path <em> /PatikaProjectImmutable/src/main/java/immutablePack </em> you can find both "Car" and "Model" classes.
 
-For car models, the "Model" class has been created as an enum.
-<img width="273" alt="image" src="https://user-images.githubusercontent.com/107196935/175486502-c43a7d1a-a391-4d0a-b019-8f3a8eb0b059.png">
+For car models, the "Model" class has been created as an enum as requested.
 
-You can see the "Car" class as created in accordance with the immutable rules. Which are:
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/107196935/175486502-c43a7d1a-a391-4d0a-b019-8f3a8eb0b059.png">
+
+You can see the "Car" class as created in accordance with the **immutable rules**. Which are:
 <ul>
 <li>The class must be declared as final so that child classes can’t be created.</li>
 <li>Data members in the class must be declared private so that direct access is not allowed.</li>
@@ -31,7 +32,8 @@ It is basically program that lets user to put input about game scores and read t
 Under the file <em> PatikaProject1/ </em> you will see two different modules called "consumerSide" and "producerSide". File operations are divided and as you can guess by their names **consumerSide** is responsible of reading the file and **producerSide** is responsible of writing into the file.
 
 For Maven structure, here is the pom.xml file of PatikaProject1.
-<img width="557" alt="image" src="https://user-images.githubusercontent.com/107196935/175482393-887f5ff3-d88f-43e5-a44a-37039b1088cb.png">
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/107196935/175482393-887f5ff3-d88f-43e5-a44a-37039b1088cb.png">
 
 
 Validations for entering team names and score are available. Here you see that without entering the name of Team1, user can't go any further.
